@@ -1,0 +1,175 @@
+*{
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-sizing: border-box;
+}
+main{
+      
+      width: 80%;
+      height: 1200px;
+      margin: auto;
+      
+}
+header{
+     
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(to left ,black,khaki);
+}
+header h1{
+      font-size: 40px;
+      margin: 65px 20px;
+      float: left;
+
+}
+.img1{
+      float: right;
+      margin: 25px 20px;
+}
+
+nav{
+      
+      background: linear-gradient(to left ,black,khaki);
+      height: 40px;
+      width: 100%;
+      margin-top: 5px;
+      padding: 8px;
+      
+
+}
+nav ul {
+      display: inline-block;
+   list-style: none;
+   margin-left: 10px;
+}
+
+nav li{
+      display: inline-block;
+      margin: 0px 10px;
+}
+nav ul li:first-child{
+      margin-left: 0px;
+}
+nav li a{
+      
+      text-decoration: none;
+      color: black;
+}
+nav li a:hover{
+      color: red;
+
+}
+form{
+      float: right;
+      margin-right: 12px;
+     
+}
+nav form input{
+      border-radius:5px;
+}
+nav form input [type="text"]{
+      padding: 5px;
+}
+nav form input [type="submit"]{
+      
+      margin: 5px;
+}
+#session{
+      width: 100%;
+      height: 900px;
+      margin-top: 5px;
+     background-color: white;
+      /* background: linear-gradient(to top right ,khaki ,khaki,black); */
+    
+}
+
+aside{
+      width: 23%;
+      height: 900px;
+      float: left;
+      background-color: khaki;
+}
+.content{
+      width: 76.4%;
+      background: linear-gradient(to left ,black,khaki);
+      float: right;
+      /* background: linear-gradient(to top right  ,khaki,black); */
+}
+
+
+.content .image img{
+      width: 150px ;
+      height: 150px;
+}
+.content .ception h4 {
+      color: rgb(49, 47, 47);
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+}
+
+
+#asidbox{
+      margin: 30px 20px;
+
+}
+section aside ul {
+      margin: 15px 20px;
+}
+#asidbox li {
+      list-style: none;
+
+      font-size: 25px;
+}
+section aside #asidbox li a{
+      text-decoration: none ;
+      color: black;
+}
+section aside #asidbox li a:hover{
+      color: red;
+}
+
+article .ception{
+       width: 70%;
+      float: left;
+    
+      
+}
+article .image{
+      float: right;
+      margin: 30px 20px;
+}
+article .ception {
+      margin: 30px 40px;
+}
+article .ception ul li {
+      display: inline-block;
+      margin-top: 5px;
+      color: rgb(150, 134, 134);
+} 
+article .ception h3{
+      font-size: 25px;
+}
+article .ception a{
+      text-decoration: none;
+      color: blue;
+}
+article .ception a:hover{
+      color: red;
+}
+.clearfix{
+      clear: both;
+}
+
+article{
+   border-bottom: solid black ;
+      
+   
+}
+footer{
+     padding: 15px 0px;
+     margin-top:  5px;
+     background: linear-gradient(to left ,black,khaki);
+      text-align: center;
+}
